@@ -12,7 +12,7 @@ app.get('/api/', (req, res) => {
 
   const currentDate = new Date();
   const currentDay = currentDate.getDay();
-  const time= currentDate.toISOString().slice(0,currentDate.toISOString().length -2)+"Z";
+  const time= currentDate.toISOString().slice(0,currentDate.toISOString().length -5)+"Z";
   const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const currentDayName = daysOfWeek[currentDay];
   
