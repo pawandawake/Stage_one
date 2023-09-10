@@ -21,8 +21,8 @@ res.json({
   "current_day": currentDayName,
   "utc_time": time,
   "track": track,
-  "github_file_url": "https://github.com/pawandawake/Stage1/blob/main/server.js",
-  "github_repo_url": "https://github.com/pawandawake/Stage1",
+  "github_file_url": "https://github.com/pawandawake/Stage_one/blob/main/index.js",
+  "github_repo_url": "https://github.com/pawandawake/Stage_one",
   "status_code": 200 
   });
 });
